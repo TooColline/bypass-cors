@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080;
 corsProxy.createServer({
     originWhitelist: [
         'http://localhost:3000',
-        'https://too-collins-weather-app.herokuapp.com',
+        'https://weather-app-git-dev-collinstooct-gmailcom.vercel.app',
         'https://api.openweathermap.org/data/2.5',
     ],
     requireHeader: ['origin', 'x-requested-with'],
