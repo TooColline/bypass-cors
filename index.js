@@ -9,8 +9,10 @@ corsProxy.createServer({
     originWhitelist: [
         'http://localhost:3000',
         'https://too-collins-weather-app.herokuapp.com/',
-        'http://weather-app-git-dev-collinstooct-gmailcom.vercel.app',
-        'https://api.openweathermap.org/data/2.5',
+        'https://weather-app-git-dev-collinstooct-gmailcom.vercel.app/',
+        'https://bypass-cors-two.vercel.app/',
+        'https://bypass-cors-git-main-collinstooct-gmailcom.vercel.app',
+        'https://bypass-cors-collinstooct-gmailcom.vercel.app'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
