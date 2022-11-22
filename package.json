@@ -2,9 +2,9 @@
   "name": "bypass-cors-server",
   "version": "1.0.0",
   "description": "Simple node server to bypass cors",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Collins Too",
