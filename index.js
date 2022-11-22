@@ -15,3 +15,5 @@ corsProxy.createServer({
 }).listen(port, host, () => {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
 });
+
+module.exports = corsProxy
