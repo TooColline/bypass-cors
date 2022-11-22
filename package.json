@@ -4,8 +4,20 @@
   "description": "Simple node server to bypass cors",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Collins Too",
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "yarn": "1.x",
+    "npm": "7.x",
+    "node": "16.x"
+  }
 }
